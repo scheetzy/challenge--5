@@ -1,92 +1,59 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #dfe6e9;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1;
-}
-
-.container {
-  max-width: 1024px;
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: rgb(82, 82, 82);
-  border-left: 1px solid rgb(82, 82, 82);
+  color: #000000;
+  border-left: 1px solid black;
   padding: 10px;
-  letter-spacing: 1px;
-}
-
-.jumbotron {
-  background: linear-gradient(to right, #680303, #080597);
-  text-align: center;
-  color: white;
-  border-radius: 0;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  margin-bottom: 0px;
-  border-bottom: 10px solid rgb(82, 82, 82);
-}
-
-#clearFieldsBtn {
-  margin-top: 10px;
 }
 
 .description {
   white-space: pre-wrap;
-  font-weight: 600;
 }
 
 .time-block {
-  text-align: center;
+  border-radius: 15px;
 }
 
 .row {
-  white-space: pre-wrap;
-  height: 80px;
   border-top: 1px solid white;
 }
 
 .hour {
-  background-color: #680303;
-  color: rgb(230, 230, 230);
-  padding-top: 27px;
-  padding-left: 10px;
-  font-size: 25px;
-  font-weight: 500;
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
 }
 
 .past {
-  background-color: #dfe6e9;
-  border-radius: 15px;
+  background-color: #d3d3d3;
   color: white;
 }
 
 .present {
-  background-color: #d63031;
-  border-radius: 15px;
+  background-color: #ff6961;
+  color: white;
 }
 
 .future {
-  background-color: #55efc4;
-  border-radius: 15px;
+  background-color: #77dd77;
+  color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid rgb(82, 82, 82);
+  border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #080597;
+  background-color: #06aed5;
   color: white;
 }
 
 .saveBtn i:hover {
-  font-size: 30px;
-  transition: all 0.2s ease-in-out;
-}
-
-.white-text {
-  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
 }
