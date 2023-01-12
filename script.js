@@ -5,12 +5,6 @@ $(document).ready(function () {
   displayDate.innerHTML = NowMoment;
   let currentHour = moment().format("HH");
 
-  $("#clearFieldsBtn").click(function (event) {
-    event.preventDefault;
-    $("textarea").val("");
-    localStorage.clear();
-  });
-
   $(".time-div").each(function () {
     var timeDiv = $(this).attr("id").split("-")[1];
     
@@ -44,4 +38,3 @@ $(document).ready(function () {
   $("#hour-16 .time-block").val(localStorage.getItem("16"));
   $("#hour-17 .time-block").val(localStorage.getItem("17"));
 });
-
